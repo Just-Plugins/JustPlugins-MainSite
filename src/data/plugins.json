@@ -1,0 +1,207 @@
+{
+  "UltimateStaff": [{
+    "id": 1,
+    "title": "Ultimate Staff",
+    "description1": {
+      "title": "Description 1",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description2": {
+      "title": "Description 2",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description3": {
+      "title": "Description 3",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description4": {
+      "title": "Description 4",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Lorum Ipsum1",
+        "description": "Lorum Ipsum Dolor Sit"
+      },
+      {
+        "id": 2,
+        "title": "Lorum Ipsum2",
+        "description": "Lorum Ipsum "
+      },
+      {
+        "id": 3,
+        "title": "Lorum Ipsum3",
+        "description": "Lorum Ipsum Dolor Sit Amet"
+      }
+  ]
+  }],
+  "UltimateHub": [{
+    "id": 2,
+    "title": "UltimateHub",
+    "description1": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description2": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description3": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description4": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Lorum Ipsum1",
+        "description": "Lorum Ipsum Dolor Sit"
+      },
+      {
+        "id": 2,
+        "title": "Lorum Ipsum2",
+        "description": "Lorum Ipsum "
+      },
+      {
+        "id": 3,
+        "title": "Lorum Ipsum3",
+        "description": "Lorum Ipsum Dolor Sit Amet"
+      }
+  ]
+  }],
+  "UltimateNPC": [{
+    "id": 3,
+    "title": "Ultimate NPC",
+    "description1": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description2": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description3": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description4": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Lorum Ipsum1",
+        "description": "Lorum Ipsum Dolor Sit"
+      },
+      {
+        "id": 2,
+        "title": "Lorum Ipsum2",
+        "description": "Lorum Ipsum "
+      },
+      {
+        "id": 3,
+        "title": "Lorum Ipsum3",
+        "description": "Lorum Ipsum Dolor Sit Amet"
+      }
+  ]
+  }],
+  "SuperEssentials": [{
+    "id": 4,
+    "title": "Super Essentials",
+    "description1": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description2": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description3": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description4": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Lorum Ipsum1",
+        "description": "Lorum Ipsum Dolor Sit"
+      },
+      {
+        "id": 2,
+        "title": "Lorum Ipsum2",
+        "description": "Lorum Ipsum "
+      },
+      {
+        "id": 3,
+        "title": "Lorum Ipsum3",
+        "description": "Lorum Ipsum Dolor Sit Amet"
+      }
+  ]
+  }],
+  "SuperHolograms": [{
+    "id": 5,
+    "title": "Super Holograms",
+    "description1": {
+      "title": "SuperHolograms",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description2": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description3": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "description4": {
+      "title": "Lorum Ipsum",
+      "description": "Lorum Ipsum Dolor Sit Amet",
+      "gif": "https://i.imgur.com/L5vtDra.gif"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Lorum Ipsum1",
+        "description": "Lorum Ipsum Dolor Sit"
+      },
+      {
+        "id": 2,
+        "title": "Lorum Ipsum2",
+        "description": "Lorum Ipsum "
+      },
+      {
+        "id": 3,
+        "title": "Lorum Ipsum3",
+        "description": "Lorum Ipsum Dolor Sit Amet"
+      }
+  ]
+  }]
+}
