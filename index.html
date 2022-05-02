@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JustPlugins</title>
   </head>
+  <style>
+    /* ===== Scrollbar CSS ===== */
+    /* Firefox */
+    * {
+      scrollbar-width: auto;
+      scrollbar-color: #211ec8 #ffffff;
+    }
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+      width: 16px;
+    }
+
+    *::-webkit-scrollbar-track {
+      background: #202c3c;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      background-color: #211ec8;
+      border-radius: 10px;
+      border: 3px solid #202c3c;
+    }
+  </style>
+
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 <template>
   <!-- Section 2 -->
-  <section class="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
+  <section class="w-full bg-white dark:bg-slate-800 pt-7 pb-7 md:pt-20 md:pb-24">
     <div
       class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16"
     >
@@ -18,7 +18,7 @@
 
       <!-- Content -->
       <div
-        class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none"
+        class="box-border order-first w-full text-black dark:text-white border-solid md:w-1/2 md:pl-10 md:order-none"
       >
         <h2
           class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl"
@@ -28,7 +28,7 @@
           {{ funtion.description1.title }}
         </h2>
         <p
-          class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg"
+          class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-300 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg"
           v-for="funtion in data"
           :key="funtion.id"
         >
@@ -38,11 +38,11 @@
       <!-- End  Content -->
     </div>
     <div
-      class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16"
+      class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16"
     >
       <!-- Content -->
       <div
-        class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32"
+        class="box-border w-full border-solid md:w-1/2 md:pl-6 xl:pl-32"
       >
         <h2
           class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl"
@@ -54,7 +54,7 @@
         <p
           v-for="funtion in data"
           :key="funtion.id"
-          class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg"
+          class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-300 border-0 border-gray-300 sm:pr-10 lg:text-lg"
         >
           {{ funtion.description2.description }}
         </p>
@@ -92,7 +92,7 @@
 
       <!-- Content -->
       <div
-        class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none"
+        class="box-border order-first w-full text-black dark:text-white border-solid md:w-1/2 md:pl-10 md:order-none"
       >
         <h2
           class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl"
@@ -102,7 +102,7 @@
           {{ funtion.description3.title }}
         </h2>
         <p
-          class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg"
+          class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-300 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg"
           v-for="funtion in data"
           :key="funtion.id"
         >
@@ -112,11 +112,11 @@
       <!-- End  Content -->
     </div>
     <div
-      class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16"
+      class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black dark:text-white border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16"
     >
       <!-- Content -->
       <div
-        class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32"
+        class="box-border w-full  border-solid md:w-1/2 md:pl-6 xl:pl-32"
       >
         <h2
           class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl"
@@ -126,7 +126,7 @@
           {{ funtion.description4.title }}
         </h2>
         <p
-          class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg"
+          class="pt-4 pb-8 m-0 leading-7 text-gray-700 dark:text-gray-300 border-0 border-gray-300 sm:pr-10 lg:text-lg"
           v-for="funtion in data"
           :key="funtion.id"
         >
@@ -151,9 +151,9 @@
   </section>
 
   <!-- Features -->
-  <section class="py-20 bg-white">
+  <section class="py-20 bg-gradient-to-r from-green-500 to-blue-700 dark:from-green-800 dark:to-blue-900">
     <div class="container max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold tracking-tight text-center">
+      <h2 class="text-4xl font-bold tracking-tight text-center dark:text-white">
         Plugin Features
       </h2>
       <div
@@ -163,7 +163,7 @@
       >
         <div v-for="feature in features.features" :key="feature.id">
           <a
-            class="rounded-lg py-10 flex flex-col items-center justify-center shadow-lg border bg-white border-white"
+            class="rounded-lg py-10 flex flex-col items-center justify-center shadow-lg border bg-white border-white dark:bg-slate-700 dark:border-gray-700"
           >
             <div class="p-3 text-white bg-green-400 rounded-xl">
               <svg
@@ -185,10 +185,10 @@
                 <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5"></path>
               </svg>
             </div>
-            <h4 class="text-xl font-medium text-gray-700">
+            <h4 class="text-xl font-medium text-gray-700 dark:text-white">
               {{ feature.title }}
             </h4>
-            <p class="text-base text-center text-gray-500">
+            <p class="text-base text-center text-gray-500 dark:text-gray-300">
               {{ feature.description }}
             </p>
           </a>

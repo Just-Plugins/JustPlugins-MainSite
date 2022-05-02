@@ -1,11 +1,13 @@
 <template>
-  <section class="relative w-full px-8 text-gray-700 bg-white body-font">
+  <section
+    class="relative w-full px-8 text-gray-700 bg-white dark:bg-slate-800"
+  >
     <div
       class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl"
     >
       <router-link
         to="/"
-        class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-gray-900 select-none"
+        class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-gray-900 dark:text-white select-none"
         >JustPlugins</router-link
       >
 
@@ -14,77 +16,24 @@
       >
         <router-link
           to="/"
-          class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-          x-data="{ hover: false }"
-          @mouseenter="hover = true"
-          @mouseleave="hover = false"
+          class="relative font-medium leading-6 dark:text-white text-gray-600 transition duration-150 ease-out dark:hover:text-gray-500 hover:text-gray-900"
         >
           <span class="block">Home</span>
-          <span
-            class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden"
-          >
-            <span
-              x-show="hover"
-              class="absolute inset-0 inline-block w-full h-full transform bg-gray-900"
-              x-transition:enter="transition ease duration-200"
-              x-transition:enter-start="scale-0"
-              x-transition:enter-end="scale-100"
-              x-transition:leave="transition ease-out duration-300"
-              x-transition:leave-start="scale-100"
-              x-transition:leave-end="scale-0"
-              style="display: none"
-            ></span>
-          </span>
         </router-link>
 
         <router-link
           to="/plugins"
-          class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-          x-data="{ hover: false }"
-          @mouseenter="hover = true"
-          @mouseleave="hover = false"
+          class="relative font-medium leading-6 dark:text-white text-gray-600 transition duration-150 ease-out dark:hover:text-gray-500 hover:text-gray-900"
         >
           <span class="block">Plugins</span>
-          <span
-            class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden"
-          >
-            <span
-              x-show="hover"
-              class="absolute inset-0 inline-block w-full h-full transform bg-gray-900"
-              x-transition:enter="transition ease duration-200"
-              x-transition:enter-start="scale-0"
-              x-transition:enter-end="scale-100"
-              x-transition:leave="transition ease-out duration-300"
-              x-transition:leave-start="scale-100"
-              x-transition:leave-end="scale-0"
-              style="display: none"
-            ></span>
-          </span>
         </router-link>
 
         <a
           href="https://justplugins.xyz/discord"
-          class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-          x-data="{ hover: false }"
-          @mouseenter="hover = true"
-          @mouseleave="hover = false"
+          class="relative font-medium leading-6 dark:text-white text-gray-600 transition duration-150 ease-out dark:hover:text-gray-500 hover:text-gray-900"
         >
           <span class="block">Discord</span>
-          <span
-            class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden"
-          >
-            <span
-              x-show="hover"
-              class="absolute inset-0 inline-block w-full h-full transform bg-gray-900"
-              x-transition:enter="transition ease duration-200"
-              x-transition:enter-start="scale-0"
-              x-transition:enter-end="scale-100"
-              x-transition:leave="transition ease-out duration-300"
-              x-transition:leave-start="scale-100"
-              x-transition:leave-end="scale-0"
-              style="display: none"
-            ></span>
-          </span>
+
         </a>
       </nav>
     </div>

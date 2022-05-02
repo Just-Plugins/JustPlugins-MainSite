@@ -3,122 +3,40 @@
     "id": 1,
     "title": "Ultimate Staff",
     "description1": {
-      "title": "Description 1",
-      "description": "Lorum Ipsum Dolor Sit Amet",
+      "title": "Easy Moderation",
+      "description": "Go into staff mode and use the staff tools to moderate the chat.",
       "gif": "https://i.imgur.com/L5vtDra.gif"
     },
     "description2": {
-      "title": "Description 2",
-      "description": "Lorum Ipsum Dolor Sit Amet",
+      "title": "Managing Punishments",
+      "description": "Manage all the punishments of any player",
       "gif": "https://i.imgur.com/L5vtDra.gif"
     },
     "description3": {
-      "title": "Description 3",
-      "description": "Lorum Ipsum Dolor Sit Amet",
+      "title": "Templates",
+      "description": "Create punish templates to fasten the process of banning and mutes.",
       "gif": "https://i.imgur.com/L5vtDra.gif"
     },
     "description4": {
-      "title": "Description 4",
-      "description": "Lorum Ipsum Dolor Sit Amet",
+      "title": "Player Info",
+      "description": "Get all the information of any player",
       "gif": "https://i.imgur.com/L5vtDra.gif"
     },
     "features": [
       {
         "id": 1,
-        "title": "Lorum Ipsum1",
-        "description": "Lorum Ipsum Dolor Sit"
+        "title": "Warnings & Mutes",
+        "description": "Don't you want to ban them directly? Warn or Mute them instead."
       },
       {
         "id": 2,
-        "title": "Lorum Ipsum2",
-        "description": "Lorum Ipsum "
+        "title": "History",
+        "description": "Always keep track of all the previous punishments of any player."
       },
       {
         "id": 3,
-        "title": "Lorum Ipsum3",
-        "description": "Lorum Ipsum Dolor Sit Amet"
-      }
-  ]
-  }],
-  "UltimateHub": [{
-    "id": 2,
-    "title": "UltimateHub",
-    "description1": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description2": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description3": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description4": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "features": [
-      {
-        "id": 1,
-        "title": "Lorum Ipsum1",
-        "description": "Lorum Ipsum Dolor Sit"
-      },
-      {
-        "id": 2,
-        "title": "Lorum Ipsum2",
-        "description": "Lorum Ipsum "
-      },
-      {
-        "id": 3,
-        "title": "Lorum Ipsum3",
-        "description": "Lorum Ipsum Dolor Sit Amet"
-      }
-  ]
-  }],
-  "UltimateNPC": [{
-    "id": 3,
-    "title": "Ultimate NPC",
-    "description1": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description2": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description3": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description4": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "features": [
-      {
-        "id": 1,
-        "title": "Lorum Ipsum1",
-        "description": "Lorum Ipsum Dolor Sit"
-      },
-      {
-        "id": 2,
-        "title": "Lorum Ipsum2",
-        "description": "Lorum Ipsum "
-      },
-      {
-        "id": 3,
-        "title": "Lorum Ipsum3",
-        "description": "Lorum Ipsum Dolor Sit Amet"
+        "title": "Report System",
+        "description": "Report any player to the staff team."
       }
   ]
   }],
@@ -127,47 +45,6 @@
     "title": "Super Essentials",
     "description1": {
       "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description2": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description3": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "description4": {
-      "title": "Lorum Ipsum",
-      "description": "Lorum Ipsum Dolor Sit Amet",
-      "gif": "https://i.imgur.com/L5vtDra.gif"
-    },
-    "features": [
-      {
-        "id": 1,
-        "title": "Lorum Ipsum1",
-        "description": "Lorum Ipsum Dolor Sit"
-      },
-      {
-        "id": 2,
-        "title": "Lorum Ipsum2",
-        "description": "Lorum Ipsum "
-      },
-      {
-        "id": 3,
-        "title": "Lorum Ipsum3",
-        "description": "Lorum Ipsum Dolor Sit Amet"
-      }
-  ]
-  }],
-  "SuperHolograms": [{
-    "id": 5,
-    "title": "Super Holograms",
-    "description1": {
-      "title": "SuperHolograms",
       "description": "Lorum Ipsum Dolor Sit Amet",
       "gif": "https://i.imgur.com/L5vtDra.gif"
     },
